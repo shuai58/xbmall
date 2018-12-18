@@ -1,0 +1,24 @@
+page{background: #f5f5f5;}
+
+.card{width: 98%; display: flex; align-items: center; margin: 10rpx auto; 
+background: #fff; padding: 20rpx; padding-right: 0rpx; margin-bottom: 30rpx; box-sizing: border-box;}
+.card image{width: 130rpx; height: 130rpx; 
+margin-right: 20rpx;} 
+.card .store {position: relative; width: 320rpx; padding-right:40rpx;}
+.card .store .title {height: 36rpx; line-height: 36rpx; font-size: 30rpx; 
+white-space:nowrap; text-overflow:ellipsis; overflow:hidden; color: #333; font-weight: 600;}
+.card .store .price { margin-right: 10rpx;}
+.card .store .price .jier{font-size: 28rpx; font-weight: 600; color: #f9ab00; margin: 10rpx 0;}
+.card .store .price .rule{font-size: 24rpx;color: #999;}
+.card .line{position: absolute; right: 20rpx; top: -24rpx; width: 1;
+height: 170rpx; border-right:1rpx dashed #eee;}
+.card .line view{position: absolute; left: -12rpx; width: 30rpx; height: 30rpx;
+background: #f5f5f5; border-radius: 20rpx;}
+.card .line view:first-child{top: -15rpx;}
+.card .line view:last-child{bottom: -15rpx;}
+.card .right {width: 180rpx;}
+.card .right .btn{width: 120rpx; height: 40rpx; text-align: center; color: #fff;
+line-height: 40rpx; border-radius: 20rpx; background: #f9ab00;
+font-size: 22rpx; margin: 0 auto; }
+.card .right .num{font-size: 24rpx; color: #f9ab00; text-align: center;}
+

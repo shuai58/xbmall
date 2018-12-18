@@ -1,0 +1,37 @@
+<view class="box">
+	<view class="card">
+		<image src="/img/1.jpg"></image>
+		<view class="store">
+			<view class="title">美丽庄园-美容spa美容spa美容spa</view>	
+			<view class="price">
+				<view class="jier">100元代金券</view>
+				<view class="rule">满500元可使用</view>
+			</view>
+			<view class="line">
+				<view></view>
+				<view></view>
+			</view>
+		</view>
+		<view class="right">
+			<view class="btn">免费领取</view>	
+		</view>
+	</view>
+	<view class="card">
+		<image src="/img/1.jpg"></image>
+		<view class="store">
+			<view class="title">美丽庄园-美容spa美容spa美容spa</view>	
+			<view class="price">
+				<view class="jier">100元代金券</view>
+				<view class="rule">满500元可使用</view>
+			</view>
+			<view class="line">
+				<view></view>
+				<view></view>
+			</view>
+		</view>
+		<view class="right">
+			<view class="btn">免费领取</view>	
+		</view>
+	</view>
+</view> 
+ 

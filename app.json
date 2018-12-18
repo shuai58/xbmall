@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/shouquan/shouquan",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/feedback/feedback",
+    "pages/rankinglist/rankinglist",
+    "pages/movement/movement",
+    "pages/my/history/history",
+    "pages/my/history/detail/detail",
+    "pages/add/add",
+    "pages/fuwu/fuwu",
+    "pages/card/card"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小白健康管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#969593",
+    "selectedColor": "#17aff8",
+    "backgroundColor": "#fff",
+    "borderStyle": "#000",
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "img/icon-tab-health-hover.png",
+        "iconPath": "img/icon-tab-health-normal.png",
+        "pagePath": "pages/index/index",
+        "text": "健康"
+      },
+      {
+        "selectedIconPath": "img/icon-manager-hover.png",
+        "iconPath": "img/icon-manager-normal.png",
+        "pagePath": "pages/fuwu/fuwu",
+        "text": "服务"
+      },
+      {
+        "selectedIconPath": "img/icon-card-hover.png",
+        "iconPath": "img/icon-card-normal.png",
+        "pagePath": "pages/card/card",
+        "text": "卡券"
+      },
+      {
+        "selectedIconPath": "img/icon-tab-me-hover.png",
+        "iconPath": "img/icon-tab-me-normal.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx5c1835eeebee278f"
+  ]
+}

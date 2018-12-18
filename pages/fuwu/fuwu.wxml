@@ -1,0 +1,75 @@
+<view class="bannerbox">
+	<swiper class="banner" indicator-dots="false" autoplay="true">
+		<swiper-item >
+			<image src="/img/1.jpg" data-info="{{item}}" bindtap="addclick"></image>
+		</swiper-item>
+	</swiper>
+</view>
+<view class="topnav">
+	<view><i class="iconfont icon-jiagequshi"></i></view>
+	<view>浏览：20.5万</view>
+	<view>会员：10.5万</view>
+	<view>浏览：6542</view>
+</view>
+<view class="box">
+	<view class="navbox">
+		<view class="left">
+			<view class="icon"><i class="iconfont icon-youhuiquan"></i></view>
+			<view class="title">
+				<view class="h"><text>领券中心</text><i class="iconfont icon-ico_arrows_packup"></i></view>
+				<view class="p">痛快的消费购物</view>
+			</view>
+		</view>
+		<view class="right">
+			<view class="icon"><i class="iconfont icon-dianpu"></i></view>
+			<view class="title">
+				<view class="h"><text>商家入驻</text><i class="iconfont icon-ico_arrows_packup"></i></view>
+				<view class="p">解决开店流量问题</view>
+			</view>
+		</view>
+	</view>
+	<view class="list">
+		<view class="store">
+			<view class="storeimg"><image src="/img/1.jpg"></image></view>
+			<view class="right">
+				<view class="title">美丽庄园</view>
+				<view class="tag">
+					<text>美容</text>
+					<text>健身</text>
+				</view>
+				<view class="location"><i class="iconfont icon-diliweizhi"></i>郑州市金水区锦艺城店</view>
+			</view>
+		</view>
+		<view class="news border-bottom">
+			<view class="left">
+				<view class="title">美丽庄园解决开店流量问题痛快的消费购物</view>
+				<view class="info"><text>6981人阅读</text><text>点赞34</text></view>
+			</view>
+			<view class="right">
+				<image src="/img/1.jpg"></image>
+			</view>
+		</view>
+	</view>
+	<view class="list">
+		<view class="store">
+			<view class="storeimg"><image src="/img/1.jpg"></image></view>
+			<view class="right">
+				<view class="title">美丽庄园</view>
+				<view class="tag">
+					<text>美容</text>
+					<text>健身</text>
+				</view>
+				<view class="location"><i class="iconfont icon-diliweizhi"></i>郑州市金水区锦艺城店</view>
+			</view>
+		</view>
+		<view class="news border-bottom">
+			<view class="left">
+				<view class="title">美丽庄园解决开店流量问题痛快的消费购物</view>
+				<view class="info"><text>6981人阅读</text><text>点赞34</text></view>
+			</view>
+			<view class="right">
+				<image src="/img/1.jpg"></image>
+			</view>
+		</view>
+	</view>
+</view>
