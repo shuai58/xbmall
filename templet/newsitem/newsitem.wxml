@@ -1,0 +1,11 @@
+<template name="newsitem">
+	<view class="news">
+		<view class="left">
+			<view class="title">美丽庄园解决开店流量问题痛快的消费购物</view>
+			<view class="info"><text>6981人阅读</text><text>点赞34</text></view>
+		</view>
+		<view class="right">
+			<image src="/img/1.jpg"></image>
+		</view>
+	</view>
+</template>

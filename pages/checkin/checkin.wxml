@@ -1,0 +1,26 @@
+<view class="box">
+	<view class="cell">
+	    <view class="title">店铺名称</view> 
+	    <view class="input"><input type="text" placeholder="请输入店铺名称"/></view>
+    </view>
+    <view class="cell">
+	    <view class="title">负责人</view> 
+	    <view class="input"><input type="text" placeholder="请输入店铺负责人"/></view>
+    </view>
+    <view class="cell">
+	    <view class="title">联系电话</view> 
+	    <view class="input"><input type="tel" placeholder="请输入联系电话"/></view>
+    </view>
+    <view class="cell">
+	    <view class="title">店铺地址</view> 
+	    <view class="input" bindtap="moveToLocation">
+	    	点击在地图上选择坐标位置
+	    	{{mark.lat}} {{mark.lon}}
+	    </view>
+	    <view class="input"><input type="text" placeholder="请补充详细地址、门牌号"/></view>
+    </view>
+    <view class="cell">
+	    <view class="title">营业执照</view> 
+	    <view class="p">营业执照拍照上传（清晰完整有效）</view>
+    </view>
+</view>

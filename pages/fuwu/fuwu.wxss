@@ -1,3 +1,4 @@
+@import "./../../templet/newsitem/newsitem.wxss";
 .banner{width: 100%; height: 350rpx;}
 .topnav {display: flex; justify-content: center; width: 100%; height: 80rpx; line-height: 80rpx; 
 background: #f9f9f9; font-size: 24rpx; color: #999;}
@@ -28,14 +29,5 @@ color: #666; border: 1rpx solid #ccc; border-radius: 10rpx;
 margin: 6rpx 0; margin-right: 10rpx;}
 .store .location{font-size: 22rpx; color: #999;}
 .store .location .iconfont{position: relative; top: 4rpx; font-size:32rpx;}
-
-.news {display: flex; justify-content: space-between; align-items: center; padding: 20rpx 0;}
-.news .right {width: 220rpx; height: 130rpx; margin-left: 20rpx;}
-.news .left .title{ height: 72rpx; line-height:36rpx;
-font-size: 26rpx; color: #666; overflow: hidden;}
-.news .left .info{font-size: 24rpx; line-height:20rpx; 
-margin-top: 20rpx; color: #999;}
-.news .left .info text{padding-right: 20rpx; margin-right: 20rpx;}
-.news .left .info text:first-child{border-right:1px solid #999;}
 
 .border-bottom{border-bottom: 1rpx solid #f6f6f6;}

@@ -10,7 +10,9 @@
     "pages/my/history/detail/detail",
     "pages/add/add",
     "pages/fuwu/fuwu",
-    "pages/card/card"
+    "pages/card/card",
+    "pages/store/store",
+    "pages/checkin/checkin"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,64 @@
+<import src="./../../templet/newsitem/newsitem.wxml" />
+<view class="box">
+	<view class="top">
+		<view class="left">
+			<view class="title">美丽庄园-spa美容美丽庄园</view>
+			<view class="tag">
+				<text>spa</text>
+				<text>美容</text>
+			</view>
+			<view class="clock"><i class="iconfont icon-icon_shijian-xian"></i>9:00-22:00</view>
+		</view>
+		<view class="right">
+			<image src="/img/1.jpg"></image>
+		</view>
+	</view>
+	<view class="connect">
+		<view class="tel"><i class="iconfont icon-dianhua"></i>0371-60112004</view>
+		<view class="add"><i class="iconfont icon-diliweizhi"></i>郑州金水区锦艺城</view>	
+	</view>
+	<view class="nav">
+		<view bindtap="showclick" data-type="0" class="{{isshow==0?'active':''}}">店铺简介</view>
+		<view bindtap="showclick" data-type="1" class="{{isshow==1?'active':''}}">店铺资讯</view>
+		<view bindtap="showclick" data-type="2" class="{{isshow==2?'active':''}}">优惠活动</view>
+	</view>
+	<view wx:if="{{isshow==0}}" class="content">
+		<view style="height: 100px;background: gold;"></view>
+		 
+	</view>
+	<view wx:if="{{isshow==1}}" class="content">
+		<template is="newsitem"/>	
+		<template is="newsitem"/>
+		<template is="newsitem"/>
+	</view>
+	<view wx:if="{{isshow==2}}" class="content">
+		<view class="cardtit">优惠券</view>
+		<view class="carditem">
+			<view class="left">
+				<view class="h">20元优惠券</view>
+				<view class="p">使用规则</view>
+			</view>
+			<view class="right">
+				<view class="btn">领取</view>
+			</view>
+		</view>
+		<view class="carditem">
+			<view class="left">
+				<view class="h">20元优惠券</view>
+				<view class="p">使用规则</view>
+			</view>
+			<view class="right">
+				<view class="btn">领取</view>
+			</view>
+		</view>
+		<view class="carditem">
+			<view class="left">
+				<view class="h">20元优惠券</view>
+				<view class="p">使用规则</view>
+			</view>
+			<view class="right">
+				<view class="btn">领取</view>
+			</view>
+		</view>
+	</view>
+</view>

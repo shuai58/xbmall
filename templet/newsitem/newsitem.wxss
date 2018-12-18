@@ -1,0 +1,8 @@
+.news {display: flex; justify-content: space-between; align-items: center; padding: 20rpx 0;}
+.news .right {width: 220rpx; height: 130rpx; margin-left: 20rpx;}
+.news .left .title{ height: 72rpx; line-height:36rpx;
+font-size: 28rpx; color: #666; overflow: hidden;}
+.news .left .info{font-size: 24rpx; line-height:20rpx; 
+margin-top: 20rpx; color: #999;}
+.news .left .info text{padding-right: 20rpx; margin-right: 20rpx;}
+.news .left .info text:first-child{border-right:1px solid #999;}

@@ -41,7 +41,7 @@
 				{
 					"id": 0,
 					"name": "qidong",
-					"pathName": "pages/card/card",
+					"pathName": "pages/checkin/checkin",
 					"query": ""
 				}
 			]
